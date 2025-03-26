@@ -1,11 +1,11 @@
 export default class HostModel {
-    public id: string;
+    public id: number;
     public host: string;
     public probeType: string;
     public interval: number;
     public lastProbe: Date;
 
-    constructor(id: string, host: string, probeType: string, interval: number, lastProbe: Date) {
+    constructor(id: number, host: string, probeType: string, interval: number, lastProbe: Date) {
         this.id = id;
         this.host = host;
         this.probeType = probeType;
